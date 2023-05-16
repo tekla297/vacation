@@ -1,0 +1,273 @@
+/* header */
+.back-photo{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/mohamed-ajufaan-GFcWwwGNu_w-unsplash.png);
+    max-width: 100%;
+    height: 324px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-text{
+    font-size: 42px;
+    color: white;
+    height: 33px;
+    display: flex;
+    padding-left: 139px;
+    font-family: 'Poppins-ExtraBold';
+}
+/* navbar */
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1366px;
+    width: 100%;
+    top: 15%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: absolute;
+    font-size: 14px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 582px;
+    width: 100%;
+    height: 10px;
+    justify-content: space-evenly;
+}
+.nav-li{
+    font-size: 16px;
+    display: flex;       
+    color: #FFFFFF;
+    font-family: 'Poppins-ExtraBold';
+    display: flex;
+
+}
+.logo{
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-family: 'Poppins-ExtraBold';
+}
+/* flex box text and pictures */
+.flex-block{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.section-one{
+    margin-top: 30px;
+}
+/* section one text side */
+.left-side{
+    max-width: 426px;
+    width: 100%;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+/* first section text side */
+.top-text{
+    font-size: 18px;
+    color: #5863F8;
+    font-family: 'Poppins-bold';
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+.head-text{
+    font-size: 42px;
+    font-family: 'Poppins-ExtraBold';
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{
+    width: 184px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #5863F8;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Poppins-Regular';
+    margin-top: 20px;
+}
+.text-one{
+    font-family: 'Poppins-Medium';
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+.text-two{
+    font-family: 'Poppins-Regular';
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+/* section two hoizontal pictures first row*/
+.section-two{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;   
+    justify-content: space-around;
+}
+.first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* second block images */
+.second-img{
+    max-width: 536px;
+    width: 100%;
+    height: 260px;
+    display: flex;
+    margin-top: 16px;
+    
+}
+.first-img{
+    display: flex;
+    width: 260px;
+    height: 185px;
+}
+/* end-block */
+.flexbox{
+    max-width: 260px;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+    flex-direction: row;
+}
+.box-block{
+    width: 255px;
+    height: 264px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+/* footer */
+.header-text{
+    padding-left: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 90px;
+    
+}
+/* box imige */
+.back-img2{
+    background-image: url(../img/mohamed-ajufaan-GFcWwwGNu_w-unsplash.png);
+    max-width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.text-1{
+    font-size: 42px;
+    font-family: 'Poppins-ExtraBold';
+    color: white;
+    max-width: 400px;
+    width: 100%;
+}
+.box-block{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    justify-content: space-around;
+}
+.blocks{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 300px;
+    background-color: white;
+    margin: 0 auto;
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+   
+}
+.box-block{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+ 
+    
+}
+
+.block-head{
+    font-family: 'Poppins-bold';
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+
+}
+.block-text{
+    font-family: 'Poppins-Regular';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.bg-block{
+    background-color: #325DFF;
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer, .block-footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
